@@ -4,7 +4,7 @@ namespace ConsoleRpg.Character;
 
 public class Hero : Actor //inheritance in OOP
 {
-    private Weapon _equipedWeapon;
+    private Weapon _equipedWeapon; //encapsulation in OOP
     private Armour _equipedArmour;
     
     public Hero(string name, int hp, int bDamage, int baseArmour, int hpGenRate) : base(name,hp,bDamage,baseArmour,hpGenRate)
